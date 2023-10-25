@@ -6,13 +6,13 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
-	font-family: 'Tilt Neon', sans-serif;
+	font-family: 'Tomorrow', sans-serif;
 	color: #000;
 	scroll-behavior: smooth;
 }
 
 .bgc{
-    background-image: url("../img/bgc\ \(2\).png");
+    background-image: url("../img/Black\ White\ Minimalist\ Modern\ Work\ Desk\ Flatlay\ Photo\ Business\ Quote\ Facebook\ Cover\ \ \(1\).png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@
     justify-content: center;
 }
 
-.subtitle, .subtitle-personal, .blog, .contact, .form, .get-in-touch, header div, header p, .bar, .bar a, .bar a, .list,
+.subtitle, .subtitle p, .blog, .contact, .form, .get-in-touch, header div, header p, .bar, .bar a, .bar a, .list,
 .get-container, a, .container-dos, .footer, .copyright, .email, .lets, .principal-icon a, .principal-icon img, .bar h1,
 .services, .services div, .services h2, .services h3, .services p, .services img, .logo, .icons, .subs {
     background-color: #175D75;
@@ -47,8 +47,9 @@
     color: #175D75;
 }
 
-.get-in-touch, .copyright, .lets, .services h2, .services h3, .services p, .bar h1, .list a, nav div p, .me h2{
-    color: #fff;
+.get-in-touch, .copyright, .lets, .services h2, .services h3, .services p,
+.bar h1, .list a, nav div p, .me h2, .subtitle p{
+    color: #F6F9F9;
 }
 
 .bar{
@@ -69,8 +70,7 @@
     height: 65px;
 }
 
-.subtitle-personal{
-    color: #F6F9F9;
+.subtitle p{
     font-size: 20px;
 }
 
@@ -86,6 +86,7 @@
 
 .blog{
     height: 330px;
+    gap: 30px;
 }
 
 .contact{
@@ -155,9 +156,6 @@ a{
     gap: 20px;
 }
 
-.blog{
-    gap: 30px;
-}
 
 h2{
     text-align: start;
@@ -212,8 +210,7 @@ h2{
 
 .my-services img{
     height: 70px;
-    padding-left: 25px;
-    
+    padding-left: 25px;   
 }
 
 .hello img{
