@@ -33,9 +33,7 @@
     justify-content: center;
 }
 
-.subtitle, .subtitle p, .blog, .contact, .form, .get-in-touch, header div, header p, .bar, .bar a, .bar a, .list,
-.get-container, a, .container-dos, .footer, .copyright, .email, .lets, .principal-icon a, .principal-icon img, .bar h1,
-.services, .services div, .services h2, .services h3, .services p, .services img, .logo, .icons, .subs {
+footer, .services, .bar, .subtitle, .lets{
     background-color: #175D75;
 }
 
